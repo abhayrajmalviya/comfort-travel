@@ -1,0 +1,59 @@
+.drive__container{
+    display: flex;
+    /* width:80%; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    background-color: #EAF6FF;
+}
+.drive_main{
+    display: flex;
+    justify-content: center;
+}
+.drive__image{
+    padding-right: 20px;
+    /* padding-left: 20px; */
+}
+.drive_content{
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.drive_content_heading{
+    font-size: 28px;
+    margin :0px;
+    padding: 0px;
+    font-weight: 200;
+}
+.drive_content_heading1{
+    font-size: 32px;
+    margin :0px;
+    padding: 0px;
+}
+.drive_content_subHeading {
+    font-size: 24px;
+    margin :0px;
+    padding: 0px;
+    font-weight: 400;
+}
+.drive_content_subContent {
+    font-size: 24px;
+    margin :0px;
+    padding: 0px;
+    font-weight: 200;
+}
+
+.drive_button_container{
+    display: flex; 
+    /* justify-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.drive_button{
+    background-color: #044B82;
+    font-size: 28px;
+}

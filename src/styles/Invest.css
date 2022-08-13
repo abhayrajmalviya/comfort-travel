@@ -1,0 +1,47 @@
+
+.invest_banner{
+    background-image: url('../assests/building.jpg');
+    color :white;
+    text-align: center;
+    height: 280px;
+    line-height: 280px;
+    vertical-align: middle;
+    background-position: center;
+    opacity:0.9;
+}
+.invest_banner > h1{
+    font-size: 36px;   
+}
+
+.invest_form{
+    height: 150px ;
+    background: #63A4D7;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.invest_formContainer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+
+}
+.invest_formHeading{
+    font-size: 36px;
+}
+.invest_formContainer > form{
+   display: flex;
+}
+.invest_formContainer > form > input{
+   padding: 10px;
+   width: 273px;
+   margin-right: 10px;
+   border-radius:10px;
+}
+.btn-invest{
+    width:220px;
+}

@@ -1,0 +1,65 @@
+.login_main{
+    background-color: white;
+}
+.login_container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-bottom: 40px;
+}
+#login_form_container{
+    padding:20px;
+}
+
+#login_heading{
+    font-size: 24px;
+    font-weight: 600;
+}
+#login_form_container > form {
+    padding-top:10px;
+    display: flex;
+    flex-direction: column;
+}
+.login_details{
+    margin-top: 20px;
+    padding:10px;
+    border: 1px solid;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#forgotPassword{
+    padding-top: 10px;
+    width: 320px;
+}
+
+#forgotPassword > p{
+    float:right;
+}
+#forgotPassword > p > a{
+    color:gray;
+}
+
+.submit_button{
+    color:white;
+    background-color: #044B82;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#login_buttonContainer{
+    padding-top: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+#authSwitch{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#authSwitch > p> a{
+    color:#044B82;
+}
